@@ -1,5 +1,5 @@
 import nltk
-from nltk.tokenize import sent_tokenize, word_tokenize
+from nltk.tokenize import word_tokenize
 
 text = '''
 Natural language processing (NLP) is a field of computer science, artificial intelligence and computational linguistics concerned with the 

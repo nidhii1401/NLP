@@ -8,7 +8,6 @@ great_gatsby = r.text
 for char in ["\n", "\r", "\n", "\t"]:
     great_gatsby = great_gatsby.replace(char, " ")
     
-# you can also subset for the book text
 # (removing the project gutenburg introduction/footnotes)
 great_gatsby = great_gatsby[1433:277912]
 print(great_gatsby)
